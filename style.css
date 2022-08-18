@@ -151,3 +151,43 @@ button {
 }
 
 /* ----- HERO SECTION END ----- */
+
+/* ----- INFORMATION SECTION ----- */
+
+.container.information {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.information-header {
+	margin: 36px 0;
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1f2937;
+}
+
+.item-container {
+	display: flex;
+	column-gap: 40px;
+}
+
+.item {
+	width: 175px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
+}
+
+.item img {
+	height: 175px;
+	border: 4px solid #3882f6;
+	border-radius: 12px;
+}
+
+.item .text {
+	font-size: 18px;
+	text-align: center;
+}
+
+/* ----- INFORMATION SECTION END ----- */
