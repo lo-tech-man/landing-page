@@ -75,6 +75,16 @@ a:active {
 	color: #e5e7eb;
 }
 
+button {
+	border: none;
+	border-radius: 8px;
+	background-color: #3882f6;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 8px 24px;
+	color: #e5e7eb;
+}
+
 /* ----- HEADER ----- */
 
 .header {
@@ -98,3 +108,46 @@ a:active {
 	gap: 16px;
 }
 /* ----- HEADER END ----- */
+
+.container {
+	flex: 1 1 auto;
+	display: flex;
+	height: 400px;
+}
+
+/* ----- HERO SECTION ----- */
+
+.container.hero {
+	background-color: #1f2937;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.hero .left {
+	margin-left: 20%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 16px;
+	align-items: flex-start;
+}
+
+.main-text {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.hero .right {
+	flex: none;
+	margin-right: 20%;
+	background-color: rgb(100, 107, 115);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 530px;
+	height: 270px;
+	margin-left: 175px;
+}
+
+/* ----- HERO SECTION END ----- */
