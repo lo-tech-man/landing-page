@@ -191,3 +191,32 @@ button {
 }
 
 /* ----- INFORMATION SECTION END ----- */
+
+/* ----- TESTIMONIAL SECTION ----- */
+
+.container.quote {
+	justify-content: center;
+	background-color: #e5e7eb;
+}
+
+.quote .testimonial {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 45%;
+}
+
+.testimonial .text {
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.testimonial .signature {
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: auto;
+}
+
+/* ----- TESTIMONIAL SECTION END ----- */
