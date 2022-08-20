@@ -85,7 +85,7 @@ a:active {
 	color: #e5e7eb;
 }
 
-button {
+.sign-up {
 	border: none;
 	border-radius: 8px;
 	background-color: #3882f6;
@@ -93,6 +93,11 @@ button {
 	font-weight: bold;
 	padding: 8px 24px;
 	color: #e5e7eb;
+}
+
+.heading {
+	font-weight: bold;
+
 }
 
 /* ----- HEADER ----- */
@@ -144,9 +149,8 @@ button {
 	align-items: flex-start;
 }
 
-.main-text {
+.heading.hero {
 	font-size: 48px;
-	font-weight: bold;
 }
 
 .hero .right {
@@ -178,7 +182,7 @@ button {
 	color: #1f2937;
 }
 
-.item-container {
+.item-wrapper {
 	display: flex;
 	column-gap: 40px;
 }
@@ -205,12 +209,12 @@ button {
 
 /* ----- TESTIMONIAL SECTION ----- */
 
-.container.quote {
+.container.testimonials {
 	justify-content: center;
 	background-color: #e5e7eb;
 }
 
-.quote .testimonial {
+.testimonials .testimonial {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -218,7 +222,7 @@ button {
 	width: 45%;
 }
 
-.testimonial .text {
+.testimonial .quote {
 	font-size: 36px;
 	font-weight: lighter;
 	font-style: italic;
@@ -247,18 +251,14 @@ button {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-
-.call-to-action p {
 	color: #e5e7eb;
 }
 
-.heading {
+.heading.call-to-action {
 	font-size: 24px;
-	font-weight: bold;
 }
 
-.white-border {
+.sign-up.white-border {
 	border: 2px solid #e5e7eb;
 }
 
