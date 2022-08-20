@@ -220,3 +220,35 @@ button {
 }
 
 /* ----- TESTIMONIAL SECTION END ----- */
+
+/* ----- CALL TO ACTION SECTION ----- */
+
+.container.call-to-action {
+	justify-content: center;
+	align-items: center;
+}
+
+.call-to-action .wrapper {
+	width: 55%;
+	background-color: #3882f6;
+	border-radius: 8px;
+	padding: 44px 26px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.call-to-action p {
+	color: #e5e7eb;
+}
+
+.heading {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.white-border {
+	border: 2px solid #e5e7eb;
+}
+
+/* ----- CALL TO ACTION SECTION END ----- */
